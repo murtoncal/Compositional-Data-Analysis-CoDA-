@@ -17,7 +17,7 @@ There are two .R files detailing the code written for this project. One containi
 The data for this project can be seen below.
 
 <p align="center">
-<img src="/images/CoDA_data.png" width="150" align="center"/>
+<img src="/images/CoDA_data.png" width="750" align="center"/>
 </p>
 
 ### Exploratory
