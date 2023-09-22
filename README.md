@@ -17,12 +17,16 @@ There are two .R files detailing the code written for this project. One containi
 The data for this project can be seen below, where the percentiles Sand + Silt + Clay == 100.
 
 <p align="center">
-<img src="/images/CoDA_data.png" width="800" align="center"/>
+<img src="/images/CoDA_data.png" width="750" align="center"/>
 </p>
 
 ### Exploratory
 
+Compositional data will always sum to a constant. Therefore, a ternary plot will effectively present the three-variable data two-dimensionally. Since the plot is barycentric, clear dependencies and trends between sand, silt, and clay can be identified easily.
 
+<p align="center">
+<img src="/images/tenary_plot.png" width="750" align="center"/>
+</p>
 
 ### Linear Models
 
