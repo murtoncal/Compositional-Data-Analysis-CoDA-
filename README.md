@@ -25,7 +25,7 @@ The data for this project can be seen below, where the percentiles Sand + Silt +
 Compositional data will always sum to a constant. Therefore, a ternary plot will effectively present the three-variable data two-dimensionally. Since the plot is barycentric, clear dependencies and trends between sand, silt, and clay can be identified easily.
 
 <p align="center">
-<img src="/images/te4nary_plot.png" width="600" align="center"/>
+<img src="/images/ternary_plot.png" width="600" align="center"/>
 </p>
 
 To verify some of the discoveries from the ternary plot, a summary of the data has been produced.
