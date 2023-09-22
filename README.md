@@ -28,5 +28,9 @@ Compositional data will always sum to a constant. Therefore, a ternary plot will
 <img src="/images/tenary_plot.png" width="600" align="center"/>
 </p>
 
+To verify some of the discoveries from the ternary plot, a summary of the data has been produced.
+
+
+
 ### Linear Models
 
