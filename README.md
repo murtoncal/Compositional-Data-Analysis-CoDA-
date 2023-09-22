@@ -10,4 +10,4 @@ Coakley, J.P. & Rust, B.R. (1968) Sedimentation in an Arctic lake *J. Sed. Petro
 
 ## File Structure
 
-There are two files detailing the code written for this project. 
+There are two .R files detailing the code written for this project. One containing the exploratory data analysis. One containing the linear models.
