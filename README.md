@@ -14,13 +14,15 @@ There are two .R files detailing the code written for this project. One containi
 
 ## Data Analysis
 
-The data for this project can be seen below, where Sand + Silt + Clay == 100.
+The data for this project can be seen below, where the percentiles Sand + Silt + Clay == 100.
 
 <p align="center">
 <img src="/images/CoDA_data.png" width="800" align="center"/>
 </p>
 
 ### Exploratory
+
+
 
 ### Linear Models
 
