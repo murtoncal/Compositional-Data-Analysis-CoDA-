@@ -6,3 +6,4 @@ This GitHub Respo is a condensed version of a practical and applied statistics p
 ## Reference
 
 Coakley, J.P. & Rust, B.R. (1968) Sedimentation in an Arctic lake *J. Sed. Petrology*, **38**, 1290-1300.
+- https://pubs.geoscienceworld.org/sepm/jsedres/article-abstract/38/4/1290/96159/Sedimentation-in-an-Arctic-lake
