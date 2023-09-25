@@ -53,7 +53,7 @@ Then again, the same process is followed, but sand, silt and clay are plotted in
   <em>Scatter Plots of Each Sediment Against Depth</em>
 </p>
 
-Then, to verify the apparent trends, correlation coefficients are calculated between each variable to gain a more precise idea of the strength of the correlations. 
+To verify the apparent trends, correlation coefficients are calculated between each variable to gain a more precise idea of the strength of the correlations. 
 
 <p align="center">
   <img src="/images/co_eff.png" width="300" align="center"/>
