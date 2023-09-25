@@ -68,3 +68,4 @@ our analysis by applying more rigorous mathematical techniques
 
 ### Linear Models
 
+The next step in the analysis is to perform linear regression due to the strong correlation between sediment composition and depth identified in the explanatory analysis. Therefore, using linear regression, the depth is predicted based on the value of one sediment. Then, numerical summaries such as the mean squared error and the 𝑅-squared coefficient are used to help evaluate the quality of fit and the influence depth has had on this fit.
