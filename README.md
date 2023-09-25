@@ -43,7 +43,7 @@ Then again, the same process is followed, but sand, silt and clay are plotted in
 </p>
 
 <p align="center">
-<img src="/images/co_eff.png" width="350" align="center"/>
+<img src="/images/co_eff.png" width="300" align="center"/>
 </p>
 
 
