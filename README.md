@@ -62,6 +62,9 @@ To verify the apparent trends, correlation coefficients are calculated between e
   <em>Correlation Coefficients Between Each Variable</em>
 </p>
 
+Overall, we can conclude from our explanatory data analysis that a sediment composition does have evident
+dependence on depth. To get a more concrete idea of the strength of this dependence, we will proceed with
+our analysis by applying more rigorous mathematical techniques
 
 ### Linear Models
 
