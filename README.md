@@ -30,23 +30,35 @@ The data for this project can be seen below, where the percentiles Sand + Silt +
 Compositional data will always sum to a constant. Therefore, a ternary plot will effectively present the three-variable data two-dimensionally. Since the plot is barycentric, clear dependencies and trends between sand, silt, and clay can be identified easily.
 
 <p align="center">
-<img src="/images/ternary_plot.png" width="600" align="center"/>
+  <img src="/images/ternary_plot.png" width="600" align="center"/>
+</p>
+<p align="center">
+  <em>Ternary Plot</em>
 </p>
 
 To verify some of the discoveries from the ternary plot, a summary of the data has been produced.
 
 <p align="center">
-<img src="/images/CoDA_SS.png" width="600" align="center"/>
+  <img src="/images/CoDA_SS.png" width="600" align="center"/>
+</p>
+<p align="center">
+  <em>Summary of the Data</em>
 </p>
 
 Then again, the same process is followed, but sand, silt and clay are plotted independently against depth in scatter plots. Then, to verify the apparent trends, correlation coefficients are calculated between each variable to gain a more precise idea of the strength of the correlations. 
 
 <p align="center">
-<img src="/images/scatter_plots.png" width="750" align="center"/>
+  <img src="/images/scatter_plots.png" width="750" align="center"/>
+</p>
+<p align="center">
+  <em>Scatter Plots of Each Sediment Against Depth</em>
 </p>
 
 <p align="center">
-<img src="/images/co_eff.png" width="300" align="center"/>
+  <img src="/images/co_eff.png" width="300" align="center"/>
+</p>
+<p align="center">
+  <em>Correlation Coefficients Between Each Variable</em>
 </p>
 
 
