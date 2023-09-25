@@ -71,3 +71,5 @@ The next step in the analysis is to perform linear regression due to the strong 
 $$
 \sum_{n=1}^{3} p_{n} = 1 \qquad \qquad \qquad p_{n} \geq 0,
 $$
+
+where $p_{i}$ where $p_{i}$ is the proportion of sand, silt or clay. For the predictive value of $p_{i}$, these constraints would not be satisfied using linear regression.
