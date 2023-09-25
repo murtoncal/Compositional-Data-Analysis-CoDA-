@@ -93,6 +93,7 @@ Therefore, the analysis will consist of two linear models with the log odds of s
 $$
 c_{i} = \beta_{d}d_{i} + \epsilon_{i},
 $$
+
 $$
 s_{i} = \beta_{d}d_{i} + \epsilon_{i},
 $$
