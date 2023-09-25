@@ -80,8 +80,19 @@ Also, the usual four assumptions must be satisfied when applying linear regressi
 
 The explanatory analysis found that silt has little correlation with depth. So, if a linear model were to be constructed with silt as the response variable and depth as the explanatory variable, it is anticipated to perform poorly. Hence, if the values of sand and clay were predicted, a more accurate estimation of the silt proportion would be obtained, as Silt = 1 - Clay - Sand. Additionally, this would overcome the constraint $$\sum_{n=1}^{3} p_{n} = 1.$$
 
-To overcome the second constraint, $p_{n} \geq 0$, and the invalid assumption, the sand and clay proportions are transformed to log-odds,
+To overcome the second constraint, $p_{n} \geq 0$, and the invalid assumption, the sand and clay proportions are transformed to log-odds,
 
 $$
 \text{odds} = \text{log} \left( \frac{p}{1-p} \right).
+$$
+
+Calculating the log odds means that the sediment is no longer bounded between 0 and 1 and that it can be any real number, (0, 1) → 𝑅. Once the regression is performed, the inverse log-odds transformation can be applied to translate the fitted values back into proportions, enabling the value of silt to be calculated. Also, once the log-odds transformation is applied, the data follows a normal distribution. So, the assumptions of linear regression are all now met.
+
+Therefore, the analysis will consist of two linear models with the log odds of sand or clay as the response variable and depth as the single explanatory variable. $s_{i}$ and $c_{i}$ denote the log odds of sand and clay, and $d_{i}$ represent depth, for $i = (1,2,…,39)$. So, the two models are constructed as follows,
+
+$$
+c_{i} = \beta_{d}d_{i} + \epsilon_{i},
+$$
+$$
+s_{i} = \beta_{d}d_{i} + \epsilon_{i},
 $$
