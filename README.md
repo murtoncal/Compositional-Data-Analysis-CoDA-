@@ -45,14 +45,15 @@ To verify some of the discoveries from the ternary plot, a summary of the data h
   <em>Summary of the Data</em>
 </p>
 
-Then again, the same process is followed, but sand, silt and clay are plotted independently against depth in scatter plots. Then, to verify the apparent trends, correlation coefficients are calculated between each variable to gain a more precise idea of the strength of the correlations. 
-
+Then again, the same process is followed, but sand, silt and clay are plotted independently against depth in scatter plots.
 <p align="center">
   <img src="/images/scatter_plots.png" width="750" align="center"/>
 </p>
 <p align="center">
   <em>Scatter Plots of Each Sediment Against Depth</em>
 </p>
+
+Then, to verify the apparent trends, correlation coefficients are calculated between each variable to gain a more precise idea of the strength of the correlations. 
 
 <p align="center">
   <img src="/images/co_eff.png" width="300" align="center"/>
