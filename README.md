@@ -36,6 +36,10 @@ To verify some of the discoveries from the ternary plot, a summary of the data h
 <img src="/images/CoDA_SS.png" width="600" align="center"/>
 </p>
 
+Then again, the same process is followed, but sand, silt and clay are plotted independently against depth in scatter plots. Then, to verify the apparent trends, correlation coefficients are calculated between each variable to gain a more precise idea of the strength of the correlations. 
+
+
+
 
 ### Linear Models
 
