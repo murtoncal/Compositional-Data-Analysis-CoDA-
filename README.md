@@ -68,6 +68,6 @@ Overall, from the explanatory data analysis, it is clear that sediment compositi
 
 The next step in the analysis is to perform linear regression due to the strong correlation between sediment composition and depth identified in the explanatory analysis. So, using linear regression, the depth is predicted based on the value of one sediment. Then, numerical summaries such as the mean squared error and the 𝑅-squared coefficient are used to help evaluate the quality of fit and the influence depth has had on this fit.
 
-$$
-x + y
-$$
+\begin{equation}
+\sum_{n=1}^{3} p_{n} = 1 \hspace{1.5cm} p_{n} \geq 0,
+\end{equation}
