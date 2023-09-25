@@ -62,10 +62,12 @@ To verify the apparent trends, correlation coefficients are calculated between e
   <em>Correlation Coefficients Between Each Variable</em>
 </p>
 
-Overall, we can conclude from our explanatory data analysis that a sediment composition does have evident
-dependence on depth. To get a more concrete idea of the strength of this dependence, we will proceed with
-our analysis by applying more rigorous mathematical techniques
+Overall, from the explanatory data analysis, it is clear that sediment composition does have some dependence on depth. Therefore, the strength of this dependence will be further analysed using more rigorous mathematical techniques.
 
 ### Linear Models
 
-The next step in the analysis is to perform linear regression due to the strong correlation between sediment composition and depth identified in the explanatory analysis. Therefore, using linear regression, the depth is predicted based on the value of one sediment. Then, numerical summaries such as the mean squared error and the 𝑅-squared coefficient are used to help evaluate the quality of fit and the influence depth has had on this fit.
+The next step in the analysis is to perform linear regression due to the strong correlation between sediment composition and depth identified in the explanatory analysis. So, using linear regression, the depth is predicted based on the value of one sediment. Then, numerical summaries such as the mean squared error and the 𝑅-squared coefficient are used to help evaluate the quality of fit and the influence depth has had on this fit.
+
+$$
+x + y
+$$
