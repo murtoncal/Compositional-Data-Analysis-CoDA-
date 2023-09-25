@@ -97,3 +97,5 @@ $$
 $$
 s_{i} = \beta_{d}d_{i} + \epsilon_{i},
 $$
+
+where $\epsilon_{i}$ is the error term defined by the Gaussian distribution, $\epsilon_{i} \sim N(0,\sigma^{2})$.
