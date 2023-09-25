@@ -21,7 +21,7 @@ The data for this project can be seen below, where the percentiles Sand + Silt +
 <p align="center">
   <img src="/images/CoDA_data.png" width="750" align="center"/>
 </p>
-<p>
+<p align="center">
   <em>Project Data</em>
 </p>
 
