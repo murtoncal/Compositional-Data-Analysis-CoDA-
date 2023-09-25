@@ -79,3 +79,9 @@ where $p_{i}$ where $p_{i}$ is the proportion of sand, silt or clay. For the pre
 Also, the usual four assumptions must be satisfied when applying linear regression. One of which is that the residuals of the model must follow a normal distribution. Compositional data, however, follows the logit-normal distribution, meaning this assumption would not be met.
 
 The explanatory analysis found that silt has little correlation with depth. So, if a linear model were to be constructed with silt as the response variable and depth as the explanatory variable, it is anticipated to perform poorly. Hence, if the values of sand and clay were predicted, a more accurate estimation of the silt proportion would be obtained, as Silt = 1 - Clay - Sand. Additionally, this would overcome the constraint $$\sum_{n=1}^{3} p_{n} = 1.$$
+
+To overcome the second constraint, $p_{n} \geq 0$, and the invalid assumption, the sand and clay proportions are transformed to log-odds,
+
+$$
+\text{odds} = \text{log} \left( \frac{p}{1-p} \right).
+$$
