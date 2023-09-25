@@ -99,3 +99,6 @@ s_{i} = \beta_{d}d_{i} + \epsilon_{i},
 $$
 
 where $\epsilon_{i}$ is the error term defined by the Gaussian distribution, $\epsilon_{i} \sim N(0,\sigma^{2})$.
+
+As always, with linear regression, four assumptions must be satisfied. The first assumption is that a linear relationship must exist between the response variable (the log odds of sand and clay) and the explanatory variable (depth). Secondly, the residuals must be independent, meaning there is no correlation between consecutive data points. Thirdly, the residuals must have a constant variance. Fourthly and finally, the residuals must be normally distributed. An easy way to check these assumptions is by constructing diagnostic plots for each linear model.
+
