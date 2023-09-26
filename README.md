@@ -156,5 +156,5 @@ In the figure below, the transformed fitted values and the observed values again
   <img src="/images/CoDA_fitted.png" width="600" align="center"/>
 </p>
 <p align="center">
-  <em>Fitted Values.</em>
+  <em>The Fitted and Observed Values With the Data in Compositional Form.</em>
 </p>
