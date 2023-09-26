@@ -143,3 +143,16 @@ t_{1,2} = \frac{e^{o_{1,2}}}{1+e^{o_{1,2}}},
 $$
 
 where $o$ is the log-odds, $n = (1,2)$ are sand and clay, and $t_{1,2}$ is the transformed fitted values.
+
+The ‘fitted values’ of silt can now be calculated using the condition that sand, silt and clay must sum to 1. So, there is now the following equation for silt, 
+
+$$
+\text{Silt} = 1 - \text{Sand} - \text{Clay}.
+$$
+
+<p align="center">
+  <img src="/images/CoDA_fitted.png" width="600" align="center"/>
+</p>
+<p align="center">
+  <em>Fitted Values.</em>
+</p>
