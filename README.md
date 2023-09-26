@@ -127,3 +127,9 @@ From assessing the diagnostic plots, all assumptions for linear modelling are me
 
 Including these outliers increases the data variability, which could have detrimental effects when fitting the linear models. So, observations 12, 18 and 25 are removed from the data set. The fitted values from the two models can be seen below.
 
+<p align="center">
+  <img src="/images/fitted_values.png" width="300" align="center"/>
+</p>
+<p align="center">
+  <em>Fitted Values.</em>
+</p>
