@@ -150,6 +150,8 @@ $$
 \text{Silt} = 1 - \text{Sand} - \text{Clay}.
 $$
 
+In the figure below, the transformed fitted values and the observed values against depth for clay (left), sand (middle) and silt (right) have been plotted. They give us a good visual representation of the accuracy of the fitted values by comparing them to the observed values. It can be seen that the fitted values are no longer linear. This is because the inverse log-odds transformation is not linear a linear transformation.
+
 <p align="center">
   <img src="/images/CoDA_fitted.png" width="600" align="center"/>
 </p>
