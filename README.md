@@ -22,7 +22,7 @@ The data for this project can be seen below, where the percentiles Sand + Silt +
   <img src="/images/CoDA_data.png" width="750" align="center"/>
 </p>
 <p align="center">
-  <em>Project Data</em>
+  <em>Project Data.</em>
 </p>
 
 ### Exploratory
@@ -33,7 +33,7 @@ Compositional data will always sum to a constant. Therefore, a ternary plot will
   <img src="/images/ternary_plot.png" width="600" align="center"/>
 </p>
 <p align="center">
-  <em>Ternary Plot</em>
+  <em>Ternary Plot.</em>
 </p>
 
 To verify some of the discoveries from the ternary plot, a summary of the data has been produced.
@@ -42,7 +42,7 @@ To verify some of the discoveries from the ternary plot, a summary of the data h
   <img src="/images/CoDA_SS.png" width="600" align="center"/>
 </p>
 <p align="center">
-  <em>Summary of the Data</em>
+  <em>Summary of the Data.</em>
 </p>
 
 Then again, the same process is followed, but sand, silt and clay are plotted independently against depth in scatter plots.
@@ -50,7 +50,7 @@ Then again, the same process is followed, but sand, silt and clay are plotted in
   <img src="/images/scatter_plots.png" width="750" align="center"/>
 </p>
 <p align="center">
-  <em>Scatter Plots of Each Sediment Against Depth</em>
+  <em>Scatter Plots of Each Sediment Against Depth.</em>
 </p>
 
 To verify the apparent trends, correlation coefficients are calculated between each variable to gain a more precise idea of the strength of the correlations. 
@@ -59,7 +59,7 @@ To verify the apparent trends, correlation coefficients are calculated between e
   <img src="/images/co_eff.png" width="300" align="center"/>
 </p>
 <p align="center">
-  <em>Correlation Coefficients Between Each Variable</em>
+  <em>Correlation Coefficients Between Each Variable.</em>
 </p>
 
 Overall, from the explanatory data analysis, it is clear that sediment composition does have some dependence on depth. Therefore, the strength of this dependence will be further analysed using more rigorous mathematical techniques.
