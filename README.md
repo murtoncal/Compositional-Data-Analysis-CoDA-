@@ -103,14 +103,14 @@ where $\epsilon_{i}$ is the error term defined by the Gaussian distribution, $\e
 As always, with linear regression, four assumptions must be satisfied. The first assumption is that a linear relationship must exist between the response variable (the log odds of sand and clay) and the explanatory variable (depth). Secondly, the residuals must be independent, meaning there is no correlation between consecutive data points. Thirdly, the residuals must have a constant variance. Fourthly and finally, the residuals must be normally distributed. An easy way to check these assumptions is by constructing diagnostic plots for each linear model.
 
 <p align="center">
-  <img src="/images/Dianog_clay.png" width="500" align="center"/>
+  <img src="/images/Dianog_clay.png" width="600" align="center"/>
 </p>
 <p align="center">
   <em>Diagnostic Plots of the linear model with clay as the response variable and depth as the explanatory variable.</em>
 </p>
 
 <p align="center">
-  <img src="/images/Dianog_sand.png" width="500" align="center"/>
+  <img src="/images/Dianog_sand.png" width="600" align="center"/>
 </p>
 <p align="center">
   <em>Diagnostic Plots of the linear model with sand as the response variable and depth as the explanatory variable.</em>
@@ -124,3 +124,6 @@ From assessing the diagnostic plots, all assumptions for linear modelling are me
 <p align="center">
   <em>Outlier Observations.</em>
 </p>
+
+Including these outliers increases the data variability, which could have detrimental effects when fitting the linear models. So, observations 12, 18 and 25 are removed from the data set. The fitted values from the two models can be seen below.
+
