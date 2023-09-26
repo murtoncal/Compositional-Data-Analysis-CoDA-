@@ -102,3 +102,16 @@ where $\epsilon_{i}$ is the error term defined by the Gaussian distribution, $\e
 
 As always, with linear regression, four assumptions must be satisfied. The first assumption is that a linear relationship must exist between the response variable (the log odds of sand and clay) and the explanatory variable (depth). Secondly, the residuals must be independent, meaning there is no correlation between consecutive data points. Thirdly, the residuals must have a constant variance. Fourthly and finally, the residuals must be normally distributed. An easy way to check these assumptions is by constructing diagnostic plots for each linear model.
 
+<p align="center">
+  <img src="/images/Diag_clay.png" width="300" align="center"/>
+</p>
+<p align="center">
+  <em>Correlation Coefficients Between Each Variable</em>
+</p>
+
+<p align="center">
+  <img src="/images/Diag_Sand.png" width="300" align="center"/>
+</p>
+<p align="center">
+  <em>Correlation Coefficients Between Each Variable</em>
+</p>
