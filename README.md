@@ -133,3 +133,13 @@ Including these outliers increases the data variability, which could have detrim
 <p align="center">
   <em>Fitted Values.</em>
 </p>
+
+Above, it can be seen that both models fit the data very well. To reinforce this, the mean square error is calculated for each model. They are 0.644 and 0.520 for clay and sand as the response variables, respectively. 
+
+Since both models performed similarly well, the value of silt will now be calculated. To transform the fitted values of sand and clay from log-odds to compositional data, the following inverse log-odds transformation will be used,
+
+$$
+t_{1,2} = \frac{e^{o_{1,2}}}{1+e^{o_{1,2}}},
+$$
+
+where $o$ is the log-odds, $n = (1,2)$ are sand and clay, and $t_{1,2}$ is the transformed fitted values.
