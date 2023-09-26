@@ -115,3 +115,12 @@ As always, with linear regression, four assumptions must be satisfied. The first
 <p align="center">
   <em>Diagnostic Plots of the linear model with sand as the response variable and depth as the explanatory variable.</em>
 </p>
+
+From assessing the diagnostic plots, all assumptions for linear modelling are met. However, three outlier observations, 12, 18 and 25, do not satisfy the assumptions. These can be seen below. 
+
+<p align="center">
+  <img src="/images/outliers.png" width="300" align="center"/>
+</p>
+<p align="center">
+  <em>Outlier Observations.</em>
+</p>
