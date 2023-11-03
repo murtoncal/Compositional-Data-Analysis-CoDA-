@@ -62,11 +62,11 @@ To verify the apparent trends, correlation coefficients are calculated between e
   <em>Correlation Coefficients Between Each Variable.</em>
 </p>
 
-Overall, from the explanatory data analysis, it is clear that sediment composition does have some dependence on depth. Therefore, the strength of this dependence will be further analysed using more rigorous mathematical techniques.
+Overall, from the exploratory data analysis, it is clear that sediment composition does have some dependence on depth. Therefore, the strength of this dependence will be further analysed using more rigorous mathematical techniques.
 
 ### Linear Models
 
-The next step in the analysis is to perform linear regression due to the strong correlation between sediment composition and depth identified in the explanatory analysis. So, using linear regression, the depth is predicted based on the value of one sediment. Then, numerical summaries such as the mean squared error and the 𝑅-squared coefficient are used to help evaluate the quality of fit and the influence depth has had on this fit.
+The next step in the analysis is to perform linear regression due to the strong correlation between sediment composition and depth identified in the exploratory analysis. So, using linear regression, the depth is predicted based on the value of one sediment. Then, numerical summaries such as the mean squared error and the 𝑅-squared coefficient are used to help evaluate the quality of fit and the influence depth has had on this fit.
 
 However, because the sediment data is compositional, it comes with the following two constraints,
 
@@ -78,7 +78,7 @@ where $p_{i}$ where $p_{i}$ is the proportion of sand, silt or clay. For the pre
 
 Also, the usual four assumptions must be satisfied when applying linear regression. One of which is that the residuals of the model must follow a normal distribution. Compositional data, however, follows the logit-normal distribution, meaning this assumption would not be met.
 
-The explanatory analysis found that silt has little correlation with depth. So, if a linear model were to be constructed with silt as the response variable and depth as the explanatory variable, it is anticipated to perform poorly. Hence, if the values of sand and clay were predicted, a more accurate estimation of the silt proportion would be obtained, as Silt = 1 - Clay - Sand. Additionally, this would overcome the constraint $$\sum_{n=1}^{3} p_{n} = 1.$$
+The exploratory analysis found that silt has little correlation with depth. So, if a linear model were to be constructed with silt as the response variable and depth as the explanatory variable, it is anticipated to perform poorly. Hence, if the values of sand and clay were predicted, a more accurate estimation of the silt proportion would be obtained, as Silt = 1 - Clay - Sand. Additionally, this would overcome the constraint $$\sum_{n=1}^{3} p_{n} = 1.$$
 
 To overcome the second constraint, $p_{n} \geq 0$, and the invalid assumption, the sand and clay proportions are transformed to log-odds,
 
